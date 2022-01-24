@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="popunjava" directorySegmentName="seg_0" id="7FACEB76-D428-C4F1-B735-3CD68F128ECE">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:45:08 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<sourcePk>8080E7D6-069A-6EB6-7068-409E2A018E70</sourcePk>
+<targetPk>1FD23F57-1083-ABDA-55BC-23FC053843FB</targetPk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3506515E-EFA7-5F9A-1FAF-2F127BBB4B12</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>4C5E905D-6ED1-7D77-1D50-16D7C19EB890</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

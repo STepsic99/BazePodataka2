@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="je_racunar_sistem" directorySegmentName="seg_0" id="24043991-985A-327A-5D6A-8A41E138AF61">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:23:51 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<targetPk>C969C5AD-D6AA-9A69-39D4-6AFBD5A2D772</targetPk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>93A78B0E-5AB0-7DCA-53B5-A10A006925D2</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>38380A1D-14BA-4F9C-0FBA-72E47355FB98</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

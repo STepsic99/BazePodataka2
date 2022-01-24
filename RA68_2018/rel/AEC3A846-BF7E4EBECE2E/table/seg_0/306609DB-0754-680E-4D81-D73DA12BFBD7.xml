@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="306609DB-0754-680E-4D81-D73DA12BFBD7" name="Pacijent">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>4C5E905D-6ED1-7D77-1D50-16D7C19EB890</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="JMBG" id="C238FFD2-3C36-B0C7-4839-C65A6154CC26">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>2DEB0AF2-6F20-C351-CB24-5995FD3879F6</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ImeP" id="72FE9473-6353-F9D0-52BD-488758685BA9">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>8DC95D79-B46E-028A-A2FB-2A2D1C9FE2B7</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>28</dataTypeSize>
+<ownDataTypeParameters>28,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PrzP" id="B0609111-C20D-22DB-B010-077119C9D482">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>76C603F1-548E-77EF-81A4-B07556AF1B9D</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>28</dataTypeSize>
+<ownDataTypeParameters>28,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7DFBF3A-8557-8A91-4A13-794C60298C8C" name="Pacijent_PK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>1FD23F57-1083-ABDA-55BC-23FC053843FB</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C238FFD2-3C36-B0C7-4839-C65A6154CC26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

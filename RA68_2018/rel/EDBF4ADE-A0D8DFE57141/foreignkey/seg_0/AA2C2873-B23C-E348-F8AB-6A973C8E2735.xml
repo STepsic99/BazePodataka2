@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AA2C2873-B23C-E348-F8AB-6A973C8E2735" containerWithKeyObject="5286673F-B92C-109E-8C6B-7011A061E759" localFKIndex="BD2C8A12-9B03-1CF2-2BBF-2347818930C5" name="odrzava_Teh_podrska_FK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>B0001320-FBCF-E30E-70A9-8BCE6977234B</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<referredTableLongName>Teh_podrska</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>39237C18-F3BC-44D6-2AC9-3A19AFB8F509</referredTableID>
+<keyObject>DC6FDB13-B026-6F8F-821F-4FF1FBCE0B21</keyObject>
+<referredKeyID>DC6FDB13-B026-6F8F-821F-4FF1FBCE0B21</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdZap</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

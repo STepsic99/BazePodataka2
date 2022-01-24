@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF8CE17C-83F8-582C-A0A3-FE1041F636BD" name="Medicinsko">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>62DFF23A-82C1-D4B9-7B6D-F65AD2B8EAEC</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdZap" id="B2773A3C-AB1A-AB42-A31B-336FF88CE7A5">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>7FF83E02-B8F3-1EDB-5AFE-F89DB03F72C7</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipMR" id="E4DCCDE2-4434-396D-BED8-16A04676CAB3">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>6FB06EBC-C458-B187-087B-51CB836D8E82</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<constraintName>CH_INH_Medicinsko</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<domain>D69A7399-6741-E63F-50A8-BD8FF1794D96</domain>
+<listOfValues>
+<valueDef value="Lekar" description="entity Lekar"/>
+<valueDef value="Med_sestra" description="entity Med_sestra"/>
+</listOfValues>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2FB3F0AE-CF05-2B21-BEE7-A890909FA431" name="Medicinsko_PK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>7698F8E7-40A0-FF56-2825-9ECC21366D73</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2773A3C-AB1A-AB42-A31B-336FF88CE7A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

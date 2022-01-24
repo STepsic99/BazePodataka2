@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F8BA89D-3634-AC12-1664-08409C9BA8A9" name="Vakcinacija">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>57F43ABC-0B16-A3E2-CFEE-9B7630DBC651</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DtmV" id="6404256D-1DAD-E0AF-FEDC-A1F56FE24922">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>4917455A-6769-C584-A4F0-9063B70C0A77</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RdBr" id="8A299F7E-D50D-3BC7-EBB8-FB35E42DA56E">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>00711E6D-5997-466E-166B-43A6A6BA24FD</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Med_sestra_IdZap" id="6A854A3D-BD9E-DA6E-9B17-D4F767071C72">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>9B9CFAD2-FC88-F7F0-16FD-5B520C99CCF9</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B8A5EBD-F707-36CD-75F8-A3D9EAE2BD65" referredColumn="E0B1CF1E-D80B-BA84-7579-828EDEBDA79D"/>
+</associations>
+</Column>
+<Column name="Pacijent_JMBG" id="5EF2ECEF-99F8-D788-47B2-FF9F9896D433">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>54BDA2B0-439E-3311-8D79-10999F5258C8</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB696570-D28C-5435-6B3C-E62093452B5E" referredColumn="C238FFD2-3C36-B0C7-4839-C65A6154CC26"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81E02D3F-5C24-28B4-C4B7-A23A4778C2BC" name="Vakcinacija_PK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>C04AB4FF-B3F2-D2F5-1278-731CAE470DAF</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6404256D-1DAD-E0AF-FEDC-A1F56FE24922"/>
+<colUsage columnID="6A854A3D-BD9E-DA6E-9B17-D4F767071C72"/>
+<colUsage columnID="5EF2ECEF-99F8-D788-47B2-FF9F9896D433"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66E00DBF-D1C5-F94C-B5D2-4E23C63EC321" name="Vakcinacija_Pacijent_FK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>9708DA20-5079-191C-4AB8-A030D51EA4F8</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EF2ECEF-99F8-D788-47B2-FF9F9896D433"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5EF9BD2F-4162-D7DA-4F3E-A4DCA1C0B9EF" name="Vakcinacija_Med_sestra_FK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>EDE8EA31-750E-04A4-F0C3-905ED93C9046</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A854A3D-BD9E-DA6E-9B17-D4F767071C72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="dezinfikuje" directorySegmentName="seg_0" id="0C7225A9-A6BA-E43B-0432-13A115A54DA4">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:14:11 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>721B117B-2A08-5229-D68B-B9467988C7CF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0F3E9DBC-EFAE-DF7E-C8C0-91FDBC11B0DB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

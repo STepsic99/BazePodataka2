@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="postoji" directorySegmentName="seg_0" id="201AEC1D-9B85-F4B2-3091-F7FD52E2CE70">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:34:10 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<sourcePk>E86BAB28-6107-EFFB-5452-0CF1E741C1F7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0F3E9DBC-EFAE-DF7E-C8C0-91FDBC11B0DB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7E2A2B30-9036-3C94-BCE8-B49F0DE831DF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

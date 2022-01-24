@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E6F2C7EA-ABBE-D2D8-E496-97A9254509E2" containerWithKeyObject="5E6A1E64-066B-F56C-B983-098057ED3FCF" localFKIndex="0F92D382-5B99-5864-B5B9-03786FBE8A0E" name="Zaposleni_Zaposleni_FK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>56B5AABA-300B-1EB4-246D-61FBD495AAE3</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<referredTableLongName>Zaposleni</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5E6A1E64-066B-F56C-B983-098057ED3FCF</referredTableID>
+<keyObject>837AA6B5-ADB4-DC34-EBFA-3FE8EAAA6F82</keyObject>
+<referredKeyID>837AA6B5-ADB4-DC34-EBFA-3FE8EAAA6F82</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>IdZap</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

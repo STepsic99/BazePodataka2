@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ima" directorySegmentName="seg_0" id="777EB35B-3C84-175A-CC2E-AD756C0CFE5D">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:41:06 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3DD6BBCF-DFB5-D80A-37AE-EE567FCE545D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>03748D1A-37C7-B5A0-6728-7098962AEB5F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

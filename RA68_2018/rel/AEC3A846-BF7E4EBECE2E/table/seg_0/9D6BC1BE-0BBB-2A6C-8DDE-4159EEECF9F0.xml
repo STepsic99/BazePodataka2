@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D6BC1BE-0BBB-2A6C-8DDE-4159EEECF9F0" name="Spremacica">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>1A7DF812-E656-50A0-E310-5C0CC6A3BA9D</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdZap" id="54D5EDD0-BB24-2003-3BA4-24C0F97177FA">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>7FF83E02-B8F3-1EDB-5AFE-F89DB03F72C7</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AADCE957-6A89-D738-6142-1C82AF798D0A" name="Spremacica_PK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>7698F8E7-40A0-FF56-2825-9ECC21366D73</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54D5EDD0-BB24-2003-3BA4-24C0F97177FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="638206F8-6A5B-526C-588A-EA40C7376E6D" name="ima">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Lekar_IdZap" id="FB7EC615-B5E4-C1D3-C537-2BE7793EEDA7">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D570BB18-B2A6-1EF1-0559-9BE04E1100BF" referredColumn="29489C09-C41E-BC26-8214-16C01663D094"/>
+</associations>
+</Column>
+<Column name="Specijalnost_IdSpec" id="2C37BBFA-FA91-CE4D-C1A4-681E42F8E4B2">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A3C3AFC-F317-909B-0892-C466499A0AEF" referredColumn="07D5CA12-7071-1FFA-A23A-1CB935A4DA7E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1017EABB-1704-EDDE-44F3-1FBF8EDCF6A2" name="ima_PK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB7EC615-B5E4-C1D3-C537-2BE7793EEDA7"/>
+<colUsage columnID="2C37BBFA-FA91-CE4D-C1A4-681E42F8E4B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EEB7AC45-723F-7770-686F-25633EFE4625" name="ima_Lekar_FK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>777EB35B-3C84-175A-CC2E-AD756C0CFE5D</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB7EC615-B5E4-C1D3-C537-2BE7793EEDA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55EB8B06-FF59-9A05-8E15-74CD389CC6F7" name="ima_Specijalnost_FK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>777EB35B-3C84-175A-CC2E-AD756C0CFE5D</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C37BBFA-FA91-CE4D-C1A4-681E42F8E4B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="677FC8E6-E0CE-2FC1-466B-3890A1D2A110" name="Pregled">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:46:05 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DtmP" id="B3F36F01-06F8-6BE7-3944-0A6AEB1C5D8F">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:46:13 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OdbRuk" id="4A02098C-4DE1-6F9E-D444-B5E032D1CFA5">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:46:24 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9D24626B-4383-F776-A69C-42ED26B074F7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdZap" id="B9CCDDAA-BA39-FFC7-1CB9-93B4066294F0">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:49:04 UTC</createdTime>
+<generatorID>7133A43C-159D-D27D-E143-5354342621F1</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<referedAttribute>7FF83E02-B8F3-1EDB-5AFE-F89DB03F72C7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JMBG" id="1E807860-7A2A-02BC-9851-1935DF25927F">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:49:35 UTC</createdTime>
+<generatorID>050C742A-D1CB-C723-7618-235A3FD48B81</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<referedAttribute>2DEB0AF2-6F20-C351-CB24-5995FD3879F6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D48F7F2E-72E2-E424-88A2-47AC48D5B2E8" name="Pregled PK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:46:22 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B3F36F01-06F8-6BE7-3944-0A6AEB1C5D8F</attributeRef>
+<attributeRef>B9CCDDAA-BA39-FFC7-1CB9-93B4066294F0</attributeRef>
+<attributeRef>1E807860-7A2A-02BC-9851-1935DF25927F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

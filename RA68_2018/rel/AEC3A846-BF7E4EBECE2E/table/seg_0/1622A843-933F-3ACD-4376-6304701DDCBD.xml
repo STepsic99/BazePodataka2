@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1622A843-933F-3ACD-4376-6304701DDCBD" name="Formular">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>3506515E-EFA7-5F9A-1FAF-2F127BBB4B12</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DtmF" id="69EB994E-FE39-D5C2-1814-4E575B9DEBCC">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>90B54891-21D6-EB88-FA3F-23799BFCABA1</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IzbVak" id="162A8063-6C0F-55B4-8866-5154EFA0475B">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>47D66D31-040B-91B7-E2DA-8ACE2BFAF6ED</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DE53D5EA-6C0E-908A-A2EB-C700A943D4E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alrg" id="328DE08B-8AC9-045C-6411-6D1E510CAD25">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>4C3C8ABB-F1B6-1EF9-B4C3-84B7AEF670D0</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pacijent_JMBG" id="16644B62-4E28-FA18-7331-3E94448B7B6C">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>4CF64599-00DE-9890-1E93-930AE8A174D3</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="929FD8D5-49E5-E82B-119F-0BB55BDC1D1F" referredColumn="C238FFD2-3C36-B0C7-4839-C65A6154CC26"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B63B7CA-587B-F44C-BC15-11C61D46A891" name="Formular_PK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>8080E7D6-069A-6EB6-7068-409E2A018E70</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69EB994E-FE39-D5C2-1814-4E575B9DEBCC"/>
+<colUsage columnID="16644B62-4E28-FA18-7331-3E94448B7B6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC02F801-2745-9E65-5563-FA376F28E25E" name="Formular_Pacijent_FK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>7FACEB76-D428-C4F1-B735-3CD68F128ECE</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16644B62-4E28-FA18-7331-3E94448B7B6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="158946EC-7570-B499-BFFE-CD8DC5874ACC" containerWithKeyObject="D9665F07-CDB0-6CCF-E973-620FD511F2E6" localFKIndex="AC1BB300-199E-8526-11FA-1C70D5A69C24" name="Nalazi_se_Prostorija_FK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>8D95F84F-9239-2BE2-ED50-9A0D0706A623</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<referredTableLongName>Prostorija</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FE6A8DF3-2C26-0D7C-9B8C-C450DE7FAE6A</referredTableID>
+<keyObject>C7C3BCF8-2404-DFC6-B51B-F836834B7E49</keyObject>
+<referredKeyID>C7C3BCF8-2404-DFC6-B51B-F836834B7E49</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdPrs</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

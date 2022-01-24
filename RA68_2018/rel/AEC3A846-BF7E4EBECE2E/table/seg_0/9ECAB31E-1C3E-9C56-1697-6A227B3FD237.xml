@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9ECAB31E-1C3E-9C56-1697-6A227B3FD237" name="cisti">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Spremacica_IdZap" id="4C199295-A69D-F5F9-50F5-3F6E3EBD57D1">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEADC56F-BC8D-16AF-5288-4A1822E4D565" referredColumn="54D5EDD0-BB24-2003-3BA4-24C0F97177FA"/>
+</associations>
+</Column>
+<Column name="Prostorija_IdPrs" id="2D328701-DD1F-C2BC-4520-9F37A681E833">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="652845E0-8939-F2F1-2FBE-2BBF88204E07" referredColumn="ECD87D32-7FA6-4E26-999A-4943E77900D8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B68F1CA-685D-CE54-DC67-18A34BF9C32B" name="cisti_PK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C199295-A69D-F5F9-50F5-3F6E3EBD57D1"/>
+<colUsage columnID="2D328701-DD1F-C2BC-4520-9F37A681E833"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C403D431-5512-AC29-CCB5-930F28D8160E" name="cisti_Spremacica_FK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>6F867025-1542-E761-F98E-645729F7233B</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C199295-A69D-F5F9-50F5-3F6E3EBD57D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="020B1F46-823B-E7AC-8702-F4D6F3B1113E" name="cisti_Prostorija_FK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>6F867025-1542-E761-F98E-645729F7233B</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D328701-DD1F-C2BC-4520-9F37A681E833"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

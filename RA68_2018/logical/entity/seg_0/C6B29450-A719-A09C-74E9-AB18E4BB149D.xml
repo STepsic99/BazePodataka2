@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C6B29450-A719-A09C-74E9-AB18E4BB149D" name="Vakcina">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:30:53 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SrB" id="4002A0D7-5D99-5472-1EB4-E28338D0D0A6">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:31:22 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TipV" id="A17D2D49-3378-2044-E163-C134598BD72E">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:31:43 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DE53D5EA-6C0E-908A-A2EB-C700A943D4E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UptDo" id="01C592AB-7141-CC4B-22FB-0F99A4400E1C">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:31:52 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdF" id="47B139A4-39E3-8F58-388D-1CBECCB4DE1A">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:35:42 UTC</createdTime>
+<generatorID>261DB9B7-7FD9-DF11-17DE-7F5650AD29BB</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<referedAttribute>5AD84EEE-B483-F07A-5D73-1F6312D9498B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="93324E2B-CC0F-9D28-2DFE-FD9DCC2E7CF9" name="Vakcina PK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:31:37 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4002A0D7-5D99-5472-1EB4-E28338D0D0A6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

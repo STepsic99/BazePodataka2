@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D9665F07-CDB0-6CCF-E973-620FD511F2E6" name="Nalazi_se">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>93A78B0E-5AB0-7DCA-53B5-A10A006925D2</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Racunar_sistem_IdR" id="5867A7F4-BD50-5143-57B4-6AEC16F5E50D">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>B40E3B29-03B7-4974-82A1-B97255728B30</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8E5CDB7-5985-E0C3-9919-E258F7E3544D" referredColumn="D03515F4-C7E7-5F05-C200-6A2300DDFF8D"/>
+</associations>
+</Column>
+<Column name="Prostorija_IdPrs" id="87E4791E-EAF5-5F44-E0A3-7908DD95FCBC">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>C33A1342-8F4D-067F-0FB8-EED4C3A13DE5</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="158946EC-7570-B499-BFFE-CD8DC5874ACC" referredColumn="59087392-C03C-F364-AF26-EB3863EA7E15"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="661C589C-11A3-940F-17FD-85F72CFE25C3" name="Nalazi_se_PK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>25D213F2-AEBD-C2D6-E954-E8CF98BE7C2C</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5867A7F4-BD50-5143-57B4-6AEC16F5E50D"/>
+<colUsage columnID="87E4791E-EAF5-5F44-E0A3-7908DD95FCBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC1BB300-199E-8526-11FA-1C70D5A69C24" name="Nalazi_se_Prostorija_FK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>8D95F84F-9239-2BE2-ED50-9A0D0706A623</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87E4791E-EAF5-5F44-E0A3-7908DD95FCBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91162894-EEDA-CDA0-8CA1-B34E7647BC5A" name="Nalazi_se_Racunar_sistem_FK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>24043991-985A-327A-5D6A-8A41E138AF61</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5867A7F4-BD50-5143-57B4-6AEC16F5E50D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

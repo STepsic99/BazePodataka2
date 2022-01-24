@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="684240E3-9B0F-6CF8-D607-A7EA0ABF5631" name="Nemedicinsko">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>570686FA-7875-A57E-F1DE-5AC212BB877A</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdZap" id="EE268FA0-5A90-7FF0-A8FF-D47376B8DF88">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>7FF83E02-B8F3-1EDB-5AFE-F89DB03F72C7</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipNMR" id="EF15428A-6445-0848-5109-D99E891E0C81">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>9D55C213-654B-A988-1E63-244D30378D68</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<constraintName>CH_INH_Nemedicinsko</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<domain>7638F350-4DFE-B9EE-ED53-F7D902EDF346</domain>
+<listOfValues>
+<valueDef value="Clan_dez_tima" description="entity Clan_dez_tima"/>
+<valueDef value="Spremacica" description="entity Spremacica"/>
+<valueDef value="Teh_podrska" description="entity Teh_podrska"/>
+</listOfValues>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C6F9D95-FC87-5233-85E9-8294582E6686" name="Nemedicinsko_PK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>7698F8E7-40A0-FF56-2825-9ECC21366D73</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE268FA0-5A90-7FF0-A8FF-D47376B8DF88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BE1EF636-0B86-3763-E0A1-3008B8C93E35" containerWithKeyObject="3B559154-3FA2-7059-8026-47E74105E06D" localFKIndex="1F7382E3-CC30-70C2-5984-7B007C369FB6" name="dezinfikuje_Prostorija_FK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>0C7225A9-A6BA-E43B-0432-13A115A54DA4</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<referredTableLongName>Prostorija</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C2D45C08-1481-ED47-84B0-F7C8438B6B84</referredTableID>
+<keyObject>5C2CCAB9-9286-3FEC-F3EC-2F4F9C6CB2CB</keyObject>
+<referredKeyID>5C2CCAB9-9286-3FEC-F3EC-2F4F9C6CB2CB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdPrs</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1923686F-831C-C2AB-C519-2D3939E2F28E" containerWithKeyObject="3AB21D95-A7A2-190A-46DA-201CF048B163" localFKIndex="80185724-8631-A0E5-9DA4-1BAFFE197500" name="Pregled_Lekar_FK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>7133A43C-159D-D27D-E143-5354342621F1</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<referredTableLongName>Lekar</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>142FA881-A3FB-BE7E-327E-29A23FD352BA</referredTableID>
+<keyObject>22FD8BB4-B9E5-8ACA-14F3-742C38BE4C41</keyObject>
+<referredKeyID>22FD8BB4-B9E5-8ACA-14F3-742C38BE4C41</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdZap</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

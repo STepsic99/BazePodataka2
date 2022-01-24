@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3CE2F6A-4881-7311-9374-FF1A057A92B5" name="dezinfikuje">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Clan_dez_tima_IdZap" id="2D81A78D-9F7F-EE43-7BB3-FB62D5244070">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAE3BEF0-9936-A14F-2316-9C1FE5360B59" referredColumn="9BA534E9-0A55-A35B-1ACA-753EECBF5556"/>
+</associations>
+</Column>
+<Column name="Prostorija_IdPrs" id="7FA5F0BE-3FFC-2B18-404C-FDE1989239AD">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4887C12-3FC1-8633-32B4-3EF46D485711" referredColumn="59087392-C03C-F364-AF26-EB3863EA7E15"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA9FFCEC-DF80-D555-3BC9-0C13DD678FBF" name="dezinfikuje_PK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D81A78D-9F7F-EE43-7BB3-FB62D5244070"/>
+<colUsage columnID="7FA5F0BE-3FFC-2B18-404C-FDE1989239AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84231574-390A-C2FE-31D4-B9ACE4D8DA46" name="dezinfikuje_Clan_dez_tima_FK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>0C7225A9-A6BA-E43B-0432-13A115A54DA4</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D81A78D-9F7F-EE43-7BB3-FB62D5244070"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F28EC629-0133-F81C-8BA9-46D8D8347795" name="dezinfikuje_Prostorija_FK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>0C7225A9-A6BA-E43B-0432-13A115A54DA4</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FA5F0BE-3FFC-2B18-404C-FDE1989239AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

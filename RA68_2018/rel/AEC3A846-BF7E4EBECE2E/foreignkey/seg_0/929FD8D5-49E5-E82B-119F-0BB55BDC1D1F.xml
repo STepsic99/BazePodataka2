@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="929FD8D5-49E5-E82B-119F-0BB55BDC1D1F" containerWithKeyObject="1622A843-933F-3ACD-4376-6304701DDCBD" localFKIndex="DC02F801-2745-9E65-5563-FA376F28E25E" name="Formular_Pacijent_FK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:28:10 UTC</createdTime>
+<generatorID>7FACEB76-D428-C4F1-B735-3CD68F128ECE</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<referredTableLongName>Pacijent</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>306609DB-0754-680E-4D81-D73DA12BFBD7</referredTableID>
+<keyObject>E7DFBF3A-8557-8A91-4A13-794C60298C8C</keyObject>
+<referredKeyID>E7DFBF3A-8557-8A91-4A13-794C60298C8C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>JMBG</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

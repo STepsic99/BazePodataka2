@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="93A78B0E-5AB0-7DCA-53B5-A10A006925D2" name="Nalazi_se">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:21:07 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdR" id="B40E3B29-03B7-4974-82A1-B97255728B30">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:27:51 UTC</createdTime>
+<generatorID>24043991-985A-327A-5D6A-8A41E138AF61</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<referedAttribute>4DF573C4-3479-29D8-F5DF-20683A58CA04</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdPrs" id="C33A1342-8F4D-067F-0FB8-EED4C3A13DE5">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:28:58 UTC</createdTime>
+<generatorID>8D95F84F-9239-2BE2-ED50-9A0D0706A623</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<referedAttribute>DFBCCFCD-AEC3-AD44-84EB-54F9C08E1B35</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="25D213F2-AEBD-C2D6-E954-E8CF98BE7C2C" name="Nalazi_se PK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:27:51 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B40E3B29-03B7-4974-82A1-B97255728B30</attributeRef>
+<attributeRef>C33A1342-8F4D-067F-0FB8-EED4C3A13DE5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

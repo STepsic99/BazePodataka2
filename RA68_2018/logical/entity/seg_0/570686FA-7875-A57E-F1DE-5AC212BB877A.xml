@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="570686FA-7875-A57E-F1DE-5AC212BB877A" name="Nemedicinsko">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 00:46:14 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+<item key="D5C57BCE-BF4C-5B6B-FA3D-CC5691E663F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>65B2B625-88E3-6D98-7AD3-AA63D13F4E67</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<subtypesRefType>None</subtypesRefType>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>9D55C213-654B-A988-1E63-244D30378D68</discriminatorAttributeID>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TipNMR" id="9D55C213-654B-A988-1E63-244D30378D68">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:03:05 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+<item key="D5C57BCE-BF4C-5B6B-FA3D-CC5691E663F3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7638F350-4DFE-B9EE-ED53-F7D902EDF346</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

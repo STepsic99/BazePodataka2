@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B0085AC8-3E75-2DC6-0613-2CF3E906F402" containerWithKeyObject="2FDC06FB-7394-14C1-6C97-54EDF0F583EF" localFKIndex="65AF2500-1260-D024-B0C7-C285A40EBC85" name="Vakcina_Frizider_FK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>261DB9B7-7FD9-DF11-17DE-7F5650AD29BB</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<referredTableLongName>Frizider</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>60BFCDAD-5CFB-5123-807D-AA0AB29A04C8</referredTableID>
+<keyObject>735B40B1-1F8B-3CB9-44A9-C7042B89BBDA</keyObject>
+<referredKeyID>735B40B1-1F8B-3CB9-44A9-C7042B89BBDA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdF</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

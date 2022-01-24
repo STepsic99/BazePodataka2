@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="je_vakcinisan" directorySegmentName="seg_0" id="9708DA20-5079-191C-4AB8-A030D51EA4F8">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:50:21 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<sourcePk>1FD23F57-1083-ABDA-55BC-23FC053843FB</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4C5E905D-6ED1-7D77-1D50-16D7C19EB890</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>57F43ABC-0B16-A3E2-CFEE-9B7630DBC651</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

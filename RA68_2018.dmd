@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="RA68_2018" id="ABB1D2BE-CD15-0D80-6166-D5389E1AB3AF" version="3.5">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 00:36:47 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>ABB1D2BE-CD15-0D80-6166-D5389E1AB3AF</designId>
+</OSDM_Design>

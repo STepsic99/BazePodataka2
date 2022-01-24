@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E8E5CDB7-5985-E0C3-9919-E258F7E3544D" containerWithKeyObject="D9665F07-CDB0-6CCF-E973-620FD511F2E6" localFKIndex="91162894-EEDA-CDA0-8CA1-B34E7647BC5A" name="Nalazi_se_Racunar_sistem_FK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>24043991-985A-327A-5D6A-8A41E138AF61</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<referredTableLongName>Racunar_sistem</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2B3A5B08-FDCF-47FC-3DC0-00BA8D8F145D</referredTableID>
+<keyObject>48859A7E-570B-8068-D30C-7A7DFF3725E7</keyObject>
+<referredKeyID>48859A7E-570B-8068-D30C-7A7DFF3725E7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

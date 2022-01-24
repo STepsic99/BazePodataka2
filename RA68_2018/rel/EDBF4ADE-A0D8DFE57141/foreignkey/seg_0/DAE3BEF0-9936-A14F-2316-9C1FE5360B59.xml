@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DAE3BEF0-9936-A14F-2316-9C1FE5360B59" containerWithKeyObject="E3CE2F6A-4881-7311-9374-FF1A057A92B5" localFKIndex="84231574-390A-C2FE-31D4-B9ACE4D8DA46" name="dezinfikuje_Clan_dez_tima_FK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>0C7225A9-A6BA-E43B-0432-13A115A54DA4</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<referredTableLongName>Clan_dez_tima</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0FDF82B1-652C-75BF-19F6-3271C5D9D798</referredTableID>
+<keyObject>568EC62C-73DB-8DC1-7347-6C73997F6F04</keyObject>
+<referredKeyID>568EC62C-73DB-8DC1-7347-6C73997F6F04</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdZap</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="vakcinise" directorySegmentName="seg_0" id="EDE8EA31-750E-04A4-F0C3-905ED93C9046">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:49:50 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<sourcePk>7698F8E7-40A0-FF56-2825-9ECC21366D73</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2B587F5D-33AF-E477-75AB-C6C6EB3DDFA8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>57F43ABC-0B16-A3E2-CFEE-9B7630DBC651</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

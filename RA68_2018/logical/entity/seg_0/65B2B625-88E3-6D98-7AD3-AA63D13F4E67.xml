@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="65B2B625-88E3-6D98-7AD3-AA63D13F4E67" name="Zaposleni">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 00:38:35 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+<item key="D5C57BCE-BF4C-5B6B-FA3D-CC5691E663F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<subtypesRefType>None</subtypesRefType>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>B8356EE8-E2DE-49DB-4114-B92F55D4DD65</discriminatorAttributeID>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdZap" id="7FF83E02-B8F3-1EDB-5AFE-F89DB03F72C7">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 00:39:00 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+<item key="D5C57BCE-BF4C-5B6B-FA3D-CC5691E663F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ImeZap" id="602A2649-8B05-4F28-407F-BAAC15B7A467">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 00:39:52 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+<item key="D5C57BCE-BF4C-5B6B-FA3D-CC5691E663F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>28</dataTypeSize>
+<ownDataTypeParameters>28,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PrzZap" id="DC44739E-BB0C-45A7-175C-D285C9609DEE">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 00:39:44 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+<item key="D5C57BCE-BF4C-5B6B-FA3D-CC5691E663F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>28</dataTypeSize>
+<ownDataTypeParameters>28,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TipZap" id="B8356EE8-E2DE-49DB-4114-B92F55D4DD65">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 00:40:01 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+<item key="D5C57BCE-BF4C-5B6B-FA3D-CC5691E663F3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>28</dataTypeSize>
+<domain>D7DA7340-AB5F-1A61-1042-EB91AD31AE60</domain>
+<ownDataTypeParameters>28,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdZap1" id="0262EDA7-1780-F73E-F30C-745CDE13EC5C">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 00:44:20 UTC</createdTime>
+<generatorID>56B5AABA-300B-1EB4-246D-61FBD495AAE3</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+<item key="D5C57BCE-BF4C-5B6B-FA3D-CC5691E663F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7FF83E02-B8F3-1EDB-5AFE-F89DB03F72C7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7698F8E7-40A0-FF56-2825-9ECC21366D73" name="Zaposleni PK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 00:39:22 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="false"/>
+<item key="D5C57BCE-BF4C-5B6B-FA3D-CC5691E663F3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7FF83E02-B8F3-1EDB-5AFE-F89DB03F72C7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="je_prostorija" directorySegmentName="seg_0" id="8D95F84F-9239-2BE2-ED50-9A0D0706A623">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:28:28 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<targetPk>E86BAB28-6107-EFFB-5452-0CF1E741C1F7</targetPk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>93A78B0E-5AB0-7DCA-53B5-A10A006925D2</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>0F3E9DBC-EFAE-DF7E-C8C0-91FDBC11B0DB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E6A1E64-066B-F56C-B983-098057ED3FCF" name="Zaposleni">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>65B2B625-88E3-6D98-7AD3-AA63D13F4E67</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdZap" id="A6551D72-EA69-BAF5-A096-7A6A4086B555">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>7FF83E02-B8F3-1EDB-5AFE-F89DB03F72C7</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ImeZap" id="300CC5EB-361C-6E84-91A2-657A4E02B6DA">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>602A2649-8B05-4F28-407F-BAAC15B7A467</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>28</dataTypeSize>
+<ownDataTypeParameters>28,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PrzZap" id="D00D9BC0-A5C2-182A-11A4-862BF8EDF0E4">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>DC44739E-BB0C-45A7-175C-D285C9609DEE</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>28</dataTypeSize>
+<ownDataTypeParameters>28,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipZap" id="067E99EA-B01E-6E7A-B09A-0F48F0C2462F">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>B8356EE8-E2DE-49DB-4114-B92F55D4DD65</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<constraintName>CH_INH_Zaposleni</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<domain>D7DA7340-AB5F-1A61-1042-EB91AD31AE60</domain>
+<listOfValues>
+<valueDef value="Clan_dez_tima" description="entity Clan_dez_tima"/>
+<valueDef value="Lekar" description="entity Lekar"/>
+<valueDef value="Med_sestra" description="entity Med_sestra"/>
+<valueDef value="Spremacica" description="entity Spremacica"/>
+<valueDef value="Teh_podrska" description="entity Teh_podrska"/>
+</listOfValues>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+<Column name="Zaposleni_IdZap" id="ABBF3EF2-3884-9AB4-7B5A-6DFCCECB2FB2">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>0262EDA7-1780-F73E-F30C-745CDE13EC5C</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6F2C7EA-ABBE-D2D8-E496-97A9254509E2" referredColumn="A6551D72-EA69-BAF5-A096-7A6A4086B555"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="837AA6B5-ADB4-DC34-EBFA-3FE8EAAA6F82" name="Zaposleni_PK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>7698F8E7-40A0-FF56-2825-9ECC21366D73</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6551D72-EA69-BAF5-A096-7A6A4086B555"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F92D382-5B99-5864-B5B9-03786FBE8A0E" name="Zaposleni_Zaposleni_FK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>56B5AABA-300B-1EB4-246D-61FBD495AAE3</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABBF3EF2-3884-9AB4-7B5A-6DFCCECB2FB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

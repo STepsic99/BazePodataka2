@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58994E77-526B-B14B-7B35-6FED1B76EEBD" name="Pregled">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>677FC8E6-E0CE-2FC1-466B-3890A1D2A110</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DtmP" id="3B95A236-23C5-6C49-2812-D6EB833D93DD">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>B3F36F01-06F8-6BE7-3944-0A6AEB1C5D8F</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OdbRuk" id="1A08A7F6-1E60-27ED-A450-9E7D7559AE34">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>4A02098C-4DE1-6F9E-D444-B5E032D1CFA5</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9D24626B-4383-F776-A69C-42ED26B074F7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lekar_IdZap" id="7E28A2BA-3EDE-BF84-8A5B-43E97239714B">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>B9CCDDAA-BA39-FFC7-1CB9-93B4066294F0</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CD2E363-9016-95C0-68C7-F610C8C89CC4" referredColumn="6EF86658-CB15-47B4-336F-41A4499285CA"/>
+</associations>
+</Column>
+<Column name="Pacijent_JMBG" id="C43C43EA-1C9E-79A5-D363-C225CFF22AF5">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>1E807860-7A2A-02BC-9851-1935DF25927F</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F075282-E1F6-5209-FFAB-611D24AAA1A4" referredColumn="566FFD19-F8ED-0825-69E5-A3126F7AC1B6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1500EA00-C1E4-61DD-E5BE-EB99EB688AE4" name="Pregled_PK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>D48F7F2E-72E2-E424-88A2-47AC48D5B2E8</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B95A236-23C5-6C49-2812-D6EB833D93DD"/>
+<colUsage columnID="7E28A2BA-3EDE-BF84-8A5B-43E97239714B"/>
+<colUsage columnID="C43C43EA-1C9E-79A5-D363-C225CFF22AF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03203B3C-4AE8-A07F-6805-AE1F4BA8B45E" name="Pregled_Pacijent_FK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>050C742A-D1CB-C723-7618-235A3FD48B81</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C43C43EA-1C9E-79A5-D363-C225CFF22AF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE606C98-CCF6-EDBD-7AB9-0ED05A9508C1" name="Pregled_Lekar_FK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>7133A43C-159D-D27D-E143-5354342621F1</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E28A2BA-3EDE-BF84-8A5B-43E97239714B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

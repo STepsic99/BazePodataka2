@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="57F43ABC-0B16-A3E2-CFEE-9B7630DBC651" name="Vakcinacija">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:46:46 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DtmV" id="4917455A-6769-C584-A4F0-9063B70C0A77">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:46:53 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RdBr" id="00711E6D-5997-466E-166B-43A6A6BA24FD">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:47:05 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdZap" id="9B9CFAD2-FC88-F7F0-16FD-5B520C99CCF9">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:50:08 UTC</createdTime>
+<generatorID>EDE8EA31-750E-04A4-F0C3-905ED93C9046</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<referedAttribute>7FF83E02-B8F3-1EDB-5AFE-F89DB03F72C7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JMBG" id="54BDA2B0-439E-3311-8D79-10999F5258C8">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:50:34 UTC</createdTime>
+<generatorID>9708DA20-5079-191C-4AB8-A030D51EA4F8</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<referedAttribute>2DEB0AF2-6F20-C351-CB24-5995FD3879F6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C04AB4FF-B3F2-D2F5-1278-731CAE470DAF" name="Vakcinacija PK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 01:47:03 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<engineerTo>
+<item key="F481B549-B5EF-1446-F32E-23DC13806CEF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4917455A-6769-C584-A4F0-9063B70C0A77</attributeRef>
+<attributeRef>9B9CFAD2-FC88-F7F0-16FD-5B520C99CCF9</attributeRef>
+<attributeRef>54BDA2B0-439E-3311-8D79-10999F5258C8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

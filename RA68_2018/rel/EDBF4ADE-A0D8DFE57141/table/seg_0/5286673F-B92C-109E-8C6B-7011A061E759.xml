@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5286673F-B92C-109E-8C6B-7011A061E759" name="odrzava">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Teh_podrska_IdZap" id="F44987F8-E2E8-4ECC-B060-CBF6D5E47094">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA2C2873-B23C-E348-F8AB-6A973C8E2735" referredColumn="97F76995-2CDC-5774-E34F-56445CAC5BBB"/>
+</associations>
+</Column>
+<Column name="Nalazi_se_Racunar_sistem_IdR" id="FE8829CD-8184-B66F-5A27-0DC724A7BD4B">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4C1766D-0EA8-8F61-0BC4-4D848F8CD27E" referredColumn="5867A7F4-BD50-5143-57B4-6AEC16F5E50D"/>
+</associations>
+</Column>
+<Column name="Nalazi_se_Prostorija_IdPrs" id="EDE864BB-04F5-F712-5770-B0F24637B047">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4C1766D-0EA8-8F61-0BC4-4D848F8CD27E" referredColumn="87E4791E-EAF5-5F44-E0A3-7908DD95FCBC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9454C128-3583-D4BA-401D-7932603AF5FB" name="odrzava_PK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F44987F8-E2E8-4ECC-B060-CBF6D5E47094"/>
+<colUsage columnID="FE8829CD-8184-B66F-5A27-0DC724A7BD4B"/>
+<colUsage columnID="EDE864BB-04F5-F712-5770-B0F24637B047"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD2C8A12-9B03-1CF2-2BBF-2347818930C5" name="odrzava_Teh_podrska_FK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>B0001320-FBCF-E30E-70A9-8BCE6977234B</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F44987F8-E2E8-4ECC-B060-CBF6D5E47094"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83A61E72-C921-7292-C57D-6850575FF3B0" name="odrzava_Nalazi_se_FK">
+<createdBy>ShowRunner</createdBy>
+<createdTime>2022-01-12 21:53:37 UTC</createdTime>
+<generatorID>B0001320-FBCF-E30E-70A9-8BCE6977234B</generatorID>
+<ownerDesignName>RA68_2018</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE8829CD-8184-B66F-5A27-0DC724A7BD4B"/>
+<colUsage columnID="EDE864BB-04F5-F712-5770-B0F24637B047"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
